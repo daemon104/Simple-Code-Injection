@@ -1,5 +1,5 @@
 # Simple-Code-Injection
-A simple DLL code injection project writing in C++ using Windows API functions to inject malicious payload to process running on Windows system. The program will open a handle of target running process by it's name, then allocate a memory region and copy the payload into it. Finnally, it will create a new thread on target process to execute the payload to establish a reverse connection
+A simple code injection project writing in C++ using Windows API functions to inject malicious payload to process running on Windows system. The program will open a handle of target running process by it's name, then allocate a memory region and copy the payload into it. Finnally, it will create a new thread on target process to execute the payload to establish a reverse connection
 
 Generate payload from msfvenom:
 
